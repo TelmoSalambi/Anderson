@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/index.css">
+    <title>portfólio oficial</title>
+</head>
+<body>
+    <!--Menu do meu portfólio-->
+    <header>
+        <div class="logo">TS</div>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#trabalhos">Trabalhos</a></li>
+                <li><a href="#casos-estudo">Casos de estudo</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+            <div class="menu-hamburguer" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1><span>Olá!</span><br>Eu sou Telmo Salambi.<br>Desenvolvedor Web</h1>
+            <p>Bem-vindo ao meu portfólio, onde a paixão pela programação se encontra com a criatividade. Aqui, transformo desafios em soluções inovadoras, sempre buscando impactar positivamente o mundo ao meu redor.</p>
+            
+            <a href="Contacto.html" class="botao-contato">Contactar-me</a>
+            
+    
+        </div>
+    </section>
+    <!--Dados sobre mim -->
+    <section id="sobre-mim">
+        <div class="container-sobre-mim">
+            <div class="foto-perfil">
+                <img src="img/Ca.PNG" alt="Minha Foto">
+            </div>
+            <div class="conteudo-sobre-mim">
+                <h2>Sobre Mim</h2>
+                <p>Eu sou Telmo Salambi <br> Sou um programador apaixonado por transformar ideias complexas em soluções simples e eficientes. Com expertise em React.js, JavaScript, PHP, MySQL, HTML e CSS, meu foco em inovação e tecnologia me impulsiona a aperfeiçoar continuamente minhas habilidades. Busco sempre entregar os melhores resultados possíveis, combinando criatividade e eficiência em cada projeto.</p>
+                <hr>
+                <div class="dados-pessoais">
+                    <div class="coluna-esquerda">
+                        <p><strong>Nome:</strong> Telmo Salambi</p>
+                        <p><strong>Idade:</strong> 23 anos</p>
+                    </div>
+                    <div class="coluna-direita">
+                        <p><strong>Localização:</strong> Angola-Huíla</p>
+                        <p><strong>Email:</strong> telcruz925@gmail.com</p>
+                    </div>
+                </div>
+                <a href="Telmo-Salambi.pdf" download class="botao-curriculo">Baixar Currículo</a>
+            </div>
+        </div>
+    </section>
+    <!--Parte das habilidades que eu tenho-->
+    <section id="habilidades">
+        <h2>Minhas Habilidades</h2>
+        <div class="container-habilidades">
+            <!-- 6 Habilidades principais -->
+            <div class="card-habilidade">
+                <div id="html" class="icon-habilidade"></div>
+                <h3>HTML</h3>
+                <p>Estrutura básica e semântica de sites.</p>
+            </div>
+            <div class="card-habilidade">
+                <div id="css" class="icon-habilidade"></div>
+                <h3>CSS</h3>
+                <p>Estilos e layouts responsivos.</p>
+            </div>
+            <div class="card-habilidade">
+                <div id="javascript" class="icon-habilidade"></div>
+                <h3>JavaScript</h3>
+                <p>Interatividade e dinamicidade nos sites.</p>
+            </div>
+            <div class="card-habilidade">
+                <div id="php" class="icon-habilidade"></div>
+                <h3>PHP</h3>
+                <p>Back-end e integração de sistemas.</p>
+            </div>
+            <div class="card-habilidade">
+                <div id="mysql" class="icon-habilidade"></div>
+                <h3>MySQL</h3>
+                <p>Gerenciamento de banco de dados.</p>
+            </div>
+            <div class="card-habilidade">
+                <div id="react" class="icon-habilidade"></div>
+                <h3>React</h3>
+                <p>Desenvolvimento de interfaces modernas.</p>
+            </div>
+    
+            <!-- 3 Habilidades que está aprendendo -->
+            <div class="card-habilidade card-habilidade-aprendizado">
+                <div id="node" class="icon-habilidade"></div>
+                <h3>Node.js</h3>
+                <p>Desenvolvimento de servidor com JavaScript.</p>
+            </div>
+            <div class="card-habilidade card-habilidade-aprendizado">
+                <div id="docker" class="icon-habilidade"></div>
+                <h3>Angular</h3>
+                <p>aprendendo.</p>
+            </div>
+            <div class="card-habilidade card-habilidade-aprendizado">
+                <div id="aws" class="icon-habilidade"></div>
+                <h3>Python</h3>
+                <p>aprendendo</p>
+            </div>
+        </div>
+    </section>
+    <!--Area dos meus trabalhos como programador-->
+    <section id="trabalhos">
+        <h2>Meus Trabalhos</h2>
+        <div class="container-trabalhos">
+            <div class="card-trabalho">
+                <div class="card-imagem" id="projeto1"></div>
+                <div class="card-conteudo">
+                    <h3>DevHub</h3>
+                    <p>Uma startup dedicada à prestação de serviços em tecnologia, oferecendo soluções personalizadas em desenvolvimento web, software e aplicações.</p>
+                    <a href="#" class="botao-detalhes">Ver Mais Detalhes</a>
+                </div>
+            </div>
+    
+            <div class="card-trabalho">
+                <div class="card-imagem" id="projeto2"></div>
+                <div class="card-conteudo">
+                    <h3>Meu portfólio</h3>
+                    <p>Meu portfólio apresenta uma variedade de projetos que demonstram minhas habilidades em desenvolvimento web e aplicações personalizadas, refletindo meu compromisso com a qualidade.</p>
+                    <a href="#" class="botao-detalhes">Ver Mais Detalhes</a>
+                </div>
+            </div>
+    
+            <div class="card-trabalho">
+                <div class="card-imagem" id="projeto3"></div>
+                <div class="card-conteudo">
+                    <h3>AIBISFLIX</h3>
+                    <p>Este site é dedicado a filmes e séries, oferecendo uma rica variedade de conteúdos, incluindo críticas, análises, novidades e recomendações. Com um design intuitivo e fácil navegação.</p>
+                    <a href="#" class="botao-detalhes">Ver Mais Detalhes</a>
+                </div>
+            </div>
+    
+            <div class="card-trabalho">
+                <div class="card-imagem" id="projeto4"></div>
+                <div class="card-conteudo">
+                    <h3>INDISPONIVEL</h3>
+                    <p>Projecto em andamento.</p>
+                    <a href="#" class="botao-detalhes">Ver Mais Detalhes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Area de estudos de caso do meu portfólio-->
+    <section id="casos-estudo">
+        <h2>Casos de Estudos</h2>
+        <div class="estudos-container">
+            <div class="card-estudo">
+                <img src="img/2.jpg" alt="AgriConnect360">
+                <h3>AgriConnect360</h3>
+                <p>Plataforma para conectar agricultores, integrando sistemas de climatização, sensores e muito mais.</p>
+                <a href="#" class="btn-ver-mais">Ver mais detalhes</a>
+            </div>
+            
+            <div class="card-estudo">
+                <img src="img/inteligencia.jfif" alt="Inteligência Artificial">
+                <h3>Inteligência Artificial</h3>
+                <p>Estudo avançado sobre IA, suas aplicações em automação e aprendizado de máquinas.</p>
+                <a href="#" class="btn-ver-mais">Ver mais detalhes</a>
+            </div>
+            
+            <div class="card-estudo">
+                <img src="img/Kali linux.jfif" alt="Kali Linux">
+                <h3>Kali Linux</h3>
+                <p>Análise de vulnerabilidades e redes utilizando a distribuição de segurança Kali Linux.</p>
+                <a href="#" class="btn-ver-mais">Ver mais detalhes</a>
+            </div>
+            
+            <div class="card-estudo">
+                <img src="img/Machine.jfif" alt="Machine Learning">
+                <h3>Machine Learning</h3>
+                <p>Exploração de algoritmos de aprendizado de máquina e suas aplicações práticas.</p>
+                <a href="#" class="btn-ver-mais">Ver mais detalhes</a>
+            </div>
+        </div>
+    </section>
+    <!-- Seção de Contato -->
+<section id="contato">
+    <div class="contato-conteudo">
+        <div class="texto-contato">
+            <h2>Entre em Contato</h2>
+            <p>Estou disponível para novos projetos e oportunidades. Se você tem algo interessante, não hesite em entrar em contato!</p>
+        </div>
+        <div class="botao-contato">
+            <a href="Contacto.html" class="btn-animado">Fale Comigo</a>
+        </div>
+    </div>
+</section>
+
+<!-- Rodapé -->
+<footer id="rodape">
+    <p>© 2024 Desenvolvido por Telmo Salambi. Todos os direitos reservados.</p>
+</footer>
+
+
+
+    <script>
+        function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+}
+
+    </script>
+</body>
+</html>
